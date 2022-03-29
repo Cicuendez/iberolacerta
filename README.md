@@ -1,2 +1,2 @@
-# iberolacerta
-Iberolacerta Genome Project
+# Iberolacerta
+<i>Iberolacerta</i> Genome Project

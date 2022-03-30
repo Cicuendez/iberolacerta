@@ -1,3 +1,3 @@
-# meryl histogram folder > file.hist
+# meryl histogram folder_path > file.hist
 
-meryl /home/panthera/DiscoD/iberolacerta/meryl/step1 > file.hist
+meryl histogram /home/panthera/DiscoD/iberolacerta/meryl/step1 > file.hist

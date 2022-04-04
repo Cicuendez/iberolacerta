@@ -1,1 +1,9 @@
-fastqc datafile.fastq.gz
+fastqc -o output_folder_path datafile.fastq.gz 
+
+# for multiple data files:
+fastqc -t 2 -o fastqc/ data/*gz
+# -o: output directory
+# -t: threads = 2 -> Number of files processed simultaneously 
+
+# To generate a combined report of multiple files, you can run the next command in the folder with the ouptut from fastqc: 
+multiqc -o multiqc/ fastqc/

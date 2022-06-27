@@ -1,0 +1,1 @@
+fastp -i L003_1.fastq.gz -I L003_2.fastq.gz -o /mnt/DiscoD/iberolacerta/data/hi-c/fastp/L003_1_fastp.fasq.gz -O /mnt/DiscoD/iberolacerta/data/hi-c/fastp/L003_2_fastp.fasq.gz --adapter_sequence AGATCGGAAGAGCACACGTCTGAACTCCAGTCA --adapter_sequence_r2 AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --thread 16 --qualified_quality_phred 20

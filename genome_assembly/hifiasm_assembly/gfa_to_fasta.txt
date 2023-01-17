@@ -1,0 +1,7 @@
+
+
+# The output format of hifiasm must be converted to FASTA format for the subsequent steps:
+
+awk '/^S/{print ">"$2"\n"$3}' iberolacerta.asm.bp.hap1.p_ctg.gfa | fold  > fasta/iberolacerta_no_hic_hap1.fa
+
+awk '/^S/{print ">"$2"\n"$3}' iberolacerta.asm.bp.hap2.p_ctg.gfa | fold  > fasta/iberolacerta_no_hic_hap2.fa

@@ -1,0 +1,19 @@
+# BUSCO version is: 5.3.0 
+# The lineage dataset is: sauropsida_odb10 (Creation date: 2021-02-19, number of genomes: 76, number of BUSCOs: 7480)
+# Summarized benchmarking in BUSCO notation for file /mnt/DiscoD/iberolacerta/analyses/hifiasm/fasta/iberolacerta.hap1.fa
+# BUSCO was run in mode: genome
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:95.1%[S:93.1%,D:2.0%],F:0.9%,M:4.0%,n:7480	   
+	7112	Complete BUSCOs (C)			   
+	6966	Complete and single-copy BUSCOs (S)	   
+	146	Complete and duplicated BUSCOs (D)	   
+	69	Fragmented BUSCOs (F)			   
+	299	Missing BUSCOs (M)			   
+	7480	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 5.34c21f2

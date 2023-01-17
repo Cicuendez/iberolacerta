@@ -1,0 +1,15 @@
+
+
+/home/panthera/.local/bin/busco -m genome -i /mnt/DiscoD/iberolacerta/analyses/hifiasm/fasta/iberolacerta.hap1.fa -o busco_results_hap1 -l sauropsida_odb10 -c 32 -f
+
+# -i or --in: defines the input file to analyse which is either a nucleotide fasta file or a protein fasta file, depending on the BUSCO mode. As of v5.1.0 the input argument can now also be a directory containing fasta files to run in batch mode.
+
+# -o or --out: defines the folder that will contain all results, logs, and intermediate data.
+
+# -m or --mode: sets the assessment MODE: genome, proteins, transcriptome.
+
+# -l or --lineage_dataset: It can be a dataset name, i.e. bacteria_odb10, or a path i.e. ./bacteria_odb10 or /home/user/bacteria_odb10. In the former case, which is the recommended usage, BUSCO will automatically download and version the corresponding dataset. In the latter case, the dataset found in the given path will be used. Lineage can be ignored if running automated lineage selection.
+
+# -c N, --cpu N: Specify the number (N=integer) of threads/cores to use.
+
+# -f, --force: Force rewriting of existing files. Must be used when output files with the provided name already exist.

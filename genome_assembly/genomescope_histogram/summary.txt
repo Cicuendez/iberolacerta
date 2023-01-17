@@ -1,0 +1,14 @@
+GenomeScope version 2.0
+input file = /home/panthera/DiscoD/iberolacerta/meryl/file.hist
+output directory = combined
+p = 2
+k = 21
+
+property                      min               max               
+Homozygous (aa)               99.8207%          99.8352%          
+Heterozygous (ab)             0.164811%         0.179346%         
+Genome Haploid Length         1,427,150,923 bp  1,428,238,740 bp  
+Genome Repeat Length          380,248,509 bp    380,538,345 bp    
+Genome Unique Length          1,046,902,415 bp  1,047,700,394 bp  
+Model Fit                     74.7181%          98.4394%          
+Read Error Rate               0.131408%         0.131408%         

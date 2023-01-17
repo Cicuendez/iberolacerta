@@ -1,0 +1,4 @@
+
+# QUAST: genome assembly evaluation tool
+
+quast.py /mnt/DiscoD/iberolacerta/analyses/hifiasm/fasta/iberolacerta.hap1.fa /mnt/DiscoD/iberolacerta/analyses/hifiasm/fasta/iberolacerta.hap2.fa --labels primary,alternate -o output_quast --eukaryote --threads 2

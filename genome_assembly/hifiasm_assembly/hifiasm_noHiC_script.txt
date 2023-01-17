@@ -1,0 +1,11 @@
+
+# Assembly without Hi-C reads 
+# Input data: HiFi reads
+
+hifiasm -o iberolacerta.asm -t 40 /mnt/DiscoD/iberolacerta/data/hifi/m64072_220317_150612.hifi_reads.fastq.gz /mnt/DiscoD/iberolacerta/data/hifi/m64072_220331_151127.hifi_reads.fastq.gz
+
+# -o: prefix of the output files. 
+# -t: number of CPUs. 
+
+# To generate primary and alternate assemblies, add the option --primary: 
+hifiasm -o iberolacerta.asm --primary -t 40 /mnt/DiscoD/iberolacerta/data/hifi/m64072_220317_150612.hifi_reads.fastq.gz /mnt/DiscoD/iberolacerta/data/hifi/m64072_220331_151127.hifi_reads.fastq.gz
